@@ -113,11 +113,11 @@ api-key = "bbb" # your api key with dns records permissions
 - **zone-id** --> Id de la zona DNS a administrar. Lo puedes encontrar siguiendo lo siguientes pasos:
     1. Abre el panel de Cloudflare y selecciona la zona que quieres administrar
     
-    !["image01"](\images\d2csh_instalacion\image01.png)
+    !["image01"](/images/d2csh_instalacion/image01.png)
 
 
     2. En el panel de la izquierda nos cercioramos que estamos en la pestaña "Overview" y bajamos. En el panel lateral derecho observamos la sección **"API"**. En ella tenemos el campo "Zone ID", el cual deberemos de copiar e introducir en el campo "zone-id" del fichero de configuración.
-    !["image02"](\\images\d2csh_instalacion\image02.png)
+    !["image02"](/images/d2csh_instalacion/image02.png)
 
 
 - **api-key** --> El token para acceder a la API. Deberemos de crearlo desde Cloudflare con los permisos adecuados:
