@@ -2,4 +2,4 @@ title: "GLaDOS Homelab"
 description: "Documentación"
 baseurl: "glados" # La URL base para la página de GitHub
 url: "http://glados-homelab.github.io/" # La URL de tu página de GitHub
-theme: jekyll-theme-slate # Puedes elegir cualquier tema compatible con Jekyll
+theme: jekyll-theme-minimal # Puedes elegir cualquier tema compatible con Jekyll
