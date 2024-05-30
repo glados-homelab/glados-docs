@@ -117,18 +117,32 @@ api-key = "bbb" # your api key with dns records permissions
 
 
     2. En el panel de la izquierda nos cercioramos que estamos en la pestaña "Overview" y bajamos. En el panel lateral derecho observamos la sección **"API"**. En ella tenemos el campo "Zone ID", el cual deberemos de copiar e introducir en el campo "zone-id" del fichero de configuración.
+
     !["image02"](/images/d2csh_instalacion/image02.png)
 
 
 - **api-key** --> El token para acceder a la API. Deberemos de crearlo desde Cloudflare con los permisos adecuados:
-    1. En el panel de Cloudflare iremos arriba a la derecha, abrimos el desplegable y hacemos clic en "My Profile". 
-    [""](\\image\d2csh_instalacion\image03.png) 
+    1. En la misma sección en la que obtuvimos el ````**zone-id**````, haremos clic sobre **Get your API token**. 
 
-    2. En el menú de la izquierda haremos clic en "API Tokens"
-    [""](\\image\d2csh_instalacion\image04.png) 
+    [""](/images/d2csh_instalacion/image03.png)
 
-    3. Una vez en "API Tokens", le damos al botón "Create Token"
-     
+    2. Una vez en "API Tokens", le damos al botón "Create Token"
+
+    [""](/images/d2csh_instalacion/image04.png) 
+
+    3.  Vamos a usar el primer *template* que nos aparece, **Edit zone DNS**.
+
+    [""](\\image\d2csh_instalacion\image05.png) 
+
+    4. Nos aseguramos de que le damos permisos de *Edit* sobre la Zona DNS que hemos decidido. *Continue to summary*.
+
+    [""](\\image\d2csh_instalacion\image06.png) 
+
+    5. Aqui podemos ver un resumen de los permisos efectivos del Token. Comprobamos que todo esté bien y pulsamos en *Create Token* para finalizar la creación.
+
+    [""](\\image\d2csh_instalacion\image07.png) 
+
+    6.  Ahora nos mostrará el código del Token. Debemos de copiarlo a un lugar seguro, ya que no podremos volver a obtenerlo desde Cloudflare. Este Token ya puede ser pegado en el campo ````api-key =````
      .
 
      .
