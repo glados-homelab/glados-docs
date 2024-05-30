@@ -136,14 +136,14 @@ api-key = "bbb" # your api key with dns records permissions
 
     4. Nos aseguramos de que le damos permisos de *Edit* sobre la Zona DNS que hemos decidido. *Continue to summary*.
 
-    ![""](\\image\d2csh_instalacion\image06.png) 
+    ![""](/images/d2csh_instalacion/image06.png) 
 
     5. Aqui podemos ver un resumen de los permisos efectivos del Token. Comprobamos que todo esté bien y pulsamos en *Create Token* para finalizar la creación.
 
-    ![""](\\image\d2csh_instalacion\image07.png) 
+    ![""](/images/d2csh_instalacion/image07.png) 
 
     6.  Ahora nos mostrará el código del Token. Debemos de copiarlo a un lugar seguro, ya que no podremos volver a obtenerlo desde Cloudflare. Este Token ya puede ser pegado en el campo ````api-key =````
-    
+
 
 
 ````toml
